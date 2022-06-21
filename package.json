@@ -1,0 +1,45 @@
+{
+  "name": "text2png2",
+  "version": "0.0.1",
+  "description": "Convert text to png for node.js",
+  "main": "index.js",
+  "bin": {
+    "text2png": "./bin/text2png.js"
+  },
+  "scripts": {
+    "lint": "eslint **/*.js *.js",
+    "fix": "eslint **/*.js *.js --fix",
+    "test": "npm run lint && jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elijah999mgenezis/text2png2.git"
+  },
+  "keywords": [
+    "text",
+    "png"
+  ],
+  "author": "elijah999mgenezis  (https://github.com/elijah999mgenezis)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elijah999mgenezis/text2png2/issues"
+  },
+  "homepage": "https://github.com/elijah999mgenezis/text2png2#readme",
+  "files": [
+    "bin",
+    "README.md",
+    "index.js",
+    "package.json",
+    "LICENSE"
+  ],
+  "dependencies": {
+    "canvas": "^2.9.1",
+    "commander": "^8.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.3.0",
+    "eslint-config-prettier": "^6.3.0",
+    "jasmine": "^3.4.0",
+    "looks-same": "^7.2.1"
+  }
+}
